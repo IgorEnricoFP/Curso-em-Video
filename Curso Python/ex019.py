@@ -1,6 +1,7 @@
-import random
-a1 = str(input("Escreva o nome do 1º Aluno: "))
-a2 = str(input("Escreva o nome do 2º Aluno: "))
-a3 = str(input("Escreva o nome do 3º Aluno: "))
-a4 = str(input("Escreva o nome do 4º Aluno: "))
-print(f"O aluno escolhido para apagar a lousa é ")
+from random import choice
+a1 = str(input("Primeiro Aluno: "))
+a2 = str(input("Segundo Aluno: "))
+a3 = str(input("Terceiro Aluno: "))
+a4 = str(input("Quarto Aluno: "))
+lista = [a1, a2, a3, a4]
+print(f"\nO Aluno escolhido foi {choice(lista)}")
