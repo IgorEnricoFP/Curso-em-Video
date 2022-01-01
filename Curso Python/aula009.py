@@ -10,3 +10,5 @@ print(f"{frase.find('Android')}")
 
 print(f"{'Curso' in frase}")
 
+print(f"{frase.replace('Python', 'Android')}")
+
