@@ -12,3 +12,7 @@ print(f"{'Curso' in frase}")
 
 print(f"{frase.replace('Python', 'Android')}")
 
+print(f"{frase.upper()}")
+print(f"{frase.lower()}")
+print(f"{frase.capitalize()}")
+
