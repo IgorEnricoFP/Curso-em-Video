@@ -15,4 +15,8 @@ print(f"{frase.replace('Python', 'Android')}")
 print(f"{frase.upper()}")
 print(f"{frase.lower()}")
 print(f"{frase.capitalize()}")
+print(f"{frase.title()}")
 
+frase1 = '   Aprenda Python   '
+print(f"{frase.strip()}")
+print(f"{frase.rstrip()}")   # ou frase.lstrip() para começar pela esquerda
