@@ -22,7 +22,8 @@ frase1 = '   Aprenda Python   '
 print(frase.strip())
 print(frase.rstrip())   # ou frase.lstrip() para começar pela esquerda
 
-print(frase.split())
+fraseDiv = frase.split()
+print(fraseDiv[0])
 print('-'.join(frase))
 
 print("""Olá Mundo! esse texto é muito grande então para poder dar um print de uma vez só Utilizamos 3 Aspas""")
