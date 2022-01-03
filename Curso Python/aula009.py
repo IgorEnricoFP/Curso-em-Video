@@ -4,7 +4,7 @@ print(frase[9::3])
 print(len(frase))
 
 print(frase.upper().count('O'))
-print(frase.count('o', 0 , 13))
+print(frase.count('o', 0, 13))
 
 print(frase.find('deo'))
 print(frase.find('Android'))
@@ -27,4 +27,3 @@ print(fraseDiv[0])
 print('-'.join(frase))
 
 print("""Olá Mundo! esse texto é muito grande então para poder dar um print de uma vez só Utilizamos 3 Aspas""")
-
